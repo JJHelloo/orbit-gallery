@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react';
 const repoName = 'orbit-gallery';
 
 export default defineConfig({
-  base: `/${repoName}/`,
+  base: '/orbit-gallery/',
   plugins: [react()],
 });
+
